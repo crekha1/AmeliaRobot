@@ -65,7 +65,7 @@ RUN apt update && apt upgrade -y && \
 RUN pip3 install --upgrade pip setuptools
 
 # Copy Python Requirements to /root/AmeliaRobot 
-RUN git clone -b shiken https://github.com/HuntingBots/AsunaRobot /root/AsunaRobot
+RUN git clone -b shiken https://github.com/crekha1/ameliarobot /root/ameliarobot
 WORKDIR /root/AsunaRobot
 
 #Copy config file to /root/AmeliaRobot/AmeliaRobot
